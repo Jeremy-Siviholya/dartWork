@@ -89,7 +89,7 @@ class Etudiant {
     SetGender('M');
     SetAge(20);
     SetBirthday('7/12/2024');
-    SetWeight(1.67);
+    SetWeight(67);
     SetSize(1.5);
   }
 
