@@ -1,0 +1,9 @@
+IDENTITE : KAMBALE SIVIHOLYA JEREMY
+PROMOTION & OPTION: LIC3P LIAGE
+
+
+les commandes pour executer le fichier:
+
+-taper dans le terminal la commade : 
+
+dart main.dart
