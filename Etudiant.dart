@@ -83,14 +83,14 @@ class Etudiant {
 
   void setInfos() {
     SetId(3);
-    SetFirstName("JANE");
-    SetLastname("DOE");
-    SetSurname("DONE");
+    SetFirstName("ROBERT");
+    SetLastname("LEWANDOWSKI");
+    SetSurname("MUNICH");
     SetGender('M');
     SetAge(20);
-    SetBirthday('7/12/2024');
-    SetWeight(67);
-    SetSize(1.5);
+    SetBirthday('7/01/2024');
+    SetWeight(77);
+    SetSize(1.8);
   }
 
   void getInfos() {
@@ -100,9 +100,9 @@ class Etudiant {
     print("Le postnom est : ${getLastname()}");
     print("Le prenom est : ${getSurname()}");
     print("Le genre : ${getGender()}");
-    print("L'age est : ${getAge()}");
+    print("L'age est : ${getAge()} ans");
     print("La date de naissance est : ${getBirthday()}");
     print("Le poids est : ${getWeight()} kg");
-    print("La taille est : ${getSize()} cm");
+    print("La taille est : ${getSize()} m");
   }
 }
